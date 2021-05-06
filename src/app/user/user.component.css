@@ -1,0 +1,19 @@
+body
+     {
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+        background-image: url(/src/assets/images/back4.png);
+        background-size: 100%;
+        
+        
+        
+        
+        
+        
+      
+      }
+

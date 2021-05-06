@@ -1,0 +1,40 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body class="bo" >
+  <nav class="navbar navbar-expand-lg navStyle">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="brand-navbar" href="#"><img src="./assets/images/ONLANN.png" alt="Responsive image" height="40px"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+          <span><i class="fas fa-align-right iconStyle"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ml-auto navList">
+              
+            <li class="nav-item"  >
+              <a  href="home" class="nav-link active"  style="font-family: sans-serif;font-style: gras;font-weight: bold;"><i class="fas fa-cogs"></i>Acceuil</a>
+          </li>
+              <li class="nav-item">
+                  <a  href ="reunion" class="nav-link" style="font-family:sans-serif;font-style: gras;font-weight: bold;"><i class="fas fa-cogs"></i>Réunions</a>
+              </li>
+              <li class="nav-item">
+                  <a   href="chatbot"class="nav-link" style="font-family:sans-serif;font-style: gras;font-weight: bold;"><i class="fas fa-briefcase"></i>Chatbot</a>
+              </li>
+              <li class="nav-item">
+                  <a   class="nav-link" style="font-family:sans-serif;font-style: gras;font-weight: bold;"><i class="fas fa-phone"></i>Byblos</a>
+              </li>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+          </ul>
+          <ul class="navbar-nav d-none d-md-block">
+              <li class="nav-item">
+                  <a><img src="../..//assets/images/login.png" alt="" class="img-fluid rounded-circle" style="height: 28px; width: 28px;right:0 px;top:55px" (click)="onLogout()" value="Logout"></a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <app-reu></app-reu>
+</body>

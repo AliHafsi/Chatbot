@@ -1,0 +1,9 @@
+@font-face{
+font-family: 'chat';
+src: url('../assets/Lobster-Regular.ttf');
+}
+
+@font-face{
+        font-family: 'chatbot';
+        src: url('../assets/Acme-Regular.ttf');
+    }
